@@ -1,9 +1,11 @@
 <p align="center">
-  <img src="images/cover.png" alt="prd-kit cover" width="100%" />
+  <img src="images/cover.svg" alt="prd-kit cover — brief-ku × anti-ai-slop × design-template" width="100%" />
 </p>
 
 <p align="center">
-  <img src="images/anti-slop/logo.svg" alt="prd-kit logo" width="120" />
+  <img src="images/logo.svg" alt="prd-kit logo" width="120" />
+  <br/>
+  <sub>New logo: stacked PRD layers — brief-ku (blue) × anti-ai-slop (red) × design-template (violet) → ✓ 45-section PRD</sub>
 </p>
 
 <h1 align="center">prd-kit — Maximal PRD Builder</h1>
@@ -25,6 +27,10 @@
 
 <p align="center">
   <a href="./README.id.md">🇮🇩 Bahasa Indonesia</a> · <a href="#why-hybrid">Why Hybrid</a> · <a href="#skill-catalog">Catalog</a> · <a href="#question-flow">Question Flow</a> · <a href="#installation">Install</a> · <a href="#uninstall">Uninstall</a>
+</p>
+
+<p align="center">
+  <img src="images/flow.svg" alt="prd-kit flow — brief-ku → anti-ai-slop → design-template → PRD" width="100%" />
 </p>
 
 <p align="center">

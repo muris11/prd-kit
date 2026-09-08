@@ -1,9 +1,11 @@
 <p align="center">
-  <img src="images/cover.png" alt="prd-kit cover" width="100%" />
+  <img src="images/cover.svg" alt="prd-kit cover — brief-ku × anti-ai-slop × design-template" width="100%" />
 </p>
 
 <p align="center">
-  <img src="images/anti-slop/logo.svg" alt="prd-kit logo" width="120" />
+  <img src="images/logo.svg" alt="prd-kit logo baru" width="120" />
+  <br/>
+  <sub>Logo baru: tumpukan PRD — brief-ku (biru) × anti-ai-slop (merah) × design-template (violet) → ✓ 45-section PRD</sub>
 </p>
 
 <h1 align="center">prd-kit — Maximal PRD Builder</h1>
@@ -25,6 +27,10 @@
 
 <p align="center">
   <a href="./README.md">🇬🇧 English</a> · <a href="#kenapa-hybrid">Kenapa Hybrid</a> · <a href="#katalog-skill">Katalog</a> · <a href="#alur-pertanyaan">Alur Tanya</a> · <a href="#instalasi">Instalasi</a> · <a href="#cara-uninstall">Uninstall</a>
+</p>
+
+<p align="center">
+  <img src="images/flow.svg" alt="alur prd-kit — brief-ku → anti-ai-slop → design-template → PRD" width="100%" />
 </p>
 
 <p align="center">

@@ -1,0 +1,70 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="320" rx="24" fill="#0A0A0A" stroke="#1A1A1A" stroke-width="1"/>
+  <!-- brief-ku -->
+  <g transform="translate(30, 40)">
+    <rect width="220" height="240" rx="16" fill="#0F1115" stroke="#0052FF" stroke-width="2"/>
+    <circle cx="110" cy="45" r="28" fill="#0052FF"/>
+    <text x="110" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="white">?</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="white" letter-spacing="1">BRIEF-KU</text>
+    <text x="110" y="110" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#6B7280">ADAPTIVE Qs</text>
+    <rect x="20" y="130" width="180" height="28" rx="14" fill="white" opacity="0.08"/>
+    <text x="110" y="148" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="white">Scope / Platform</text>
+    <rect x="20" y="165" width="180" height="28" rx="14" fill="white" opacity="0.08"/>
+    <text x="110" y="183" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="white">Delivery / Roles</text>
+    <rect x="20" y="200" width="180" height="28" rx="14" fill="#0052FF" />
+    <text x="110" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700" fill="white">45-SECTION PRD</text>
+  </g>
+  <!-- arrow 1 -->
+  <g transform="translate(270, 150)">
+    <line x1="0" y1="10" x2="50" y2="10" stroke="#3A3A3A" stroke-width="2" stroke-dasharray="6 4"/>
+    <polygon points="50,10 42,4 42,16" fill="#3A3A3A"/>
+    <text x="25" y="-8" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#0052FF" font-weight="700">INPUT</text>
+  </g>
+  <!-- anti-slop -->
+  <g transform="translate(330, 40)">
+    <rect width="220" height="240" rx="16" fill="#0F1115" stroke="#FF3D00" stroke-width="2"/>
+    <circle cx="110" cy="45" r="28" fill="#FF3D00"/>
+    <text x="110" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" fill="white">✕</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="white" letter-spacing="1">ANTI-AI-SLOP</text>
+    <text x="110" y="110" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#6B7280">38 RULES FILTER</text>
+    <rect x="20" y="130" width="180" height="28" rx="14" fill="white" opacity="0.08"/>
+    <text x="110" y="148" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="white">DURING / AFTER ?</text>
+    <rect x="20" y="165" width="180" height="28" rx="14" fill="white" opacity="0.08"/>
+    <text x="110" y="183" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="white">Purpose Test</text>
+    <rect x="20" y="200" width="180" height="28" rx="14" fill="#FF3D00" />
+    <text x="110" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700" fill="white">GATE PASS</text>
+  </g>
+  <!-- arrow 2 -->
+  <g transform="translate(570, 150)">
+    <line x1="0" y1="10" x2="50" y2="10" stroke="#3A3A3A" stroke-width="2" stroke-dasharray="6 4"/>
+    <polygon points="50,10 42,4 42,16" fill="#3A3A3A"/>
+    <text x="25" y="-8" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#FF3D00" font-weight="700">FILTER</text>
+  </g>
+  <!-- design -->
+  <g transform="translate(630, 40)">
+    <rect width="220" height="240" rx="16" fill="#0F1115" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="110" cy="45" r="28" fill="#7C3AED"/>
+    <text x="110" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="white">◈</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="white" letter-spacing="1">DESIGN-TEMPLATE</text>
+    <text x="110" y="110" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#6B7280">30 IDENTITIES</text>
+    <rect x="20" y="130" width="180" height="28" rx="14" fill="white" opacity="0.08"/>
+    <text x="110" y="148" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="white">Pick 1 of 30</text>
+    <rect x="20" y="165" width="180" height="28" rx="14" fill="white" opacity="0.08"/>
+    <text x="110" y="183" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="white">Dials E/R/M</text>
+    <rect x="20" y="200" width="180" height="28" rx="14" fill="#7C3AED" />
+    <text x="110" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700" fill="white">DESIGN.md</text>
+  </g>
+  <!-- arrow 3 to PRD -->
+  <g transform="translate(870, 150)">
+    <line x1="0" y1="10" x2="50" y2="10" stroke="#00FF88" stroke-width="2"/>
+    <polygon points="50,10 42,4 42,16" fill="#00FF88"/>
+    <text x="25" y="-8" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#00FF88" font-weight="700">PRD</text>
+  </g>
+  <!-- PRD -->
+  <g transform="translate(930, 110)">
+    <rect width="50" height="100" rx="8" fill="#00FF88" stroke="#0A0A0A" stroke-width="2"/>
+    <text x="25" y="45" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" font-weight="800" fill="#0A0A0A">45</text>
+    <text x="25" y="60" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" font-weight="700" fill="#0A0A0A">PRD</text>
+    <text x="25" y="75" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#0A0A0A">✓</text>
+  </g>
+</svg>
