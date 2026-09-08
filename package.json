@@ -1,0 +1,37 @@
+{
+  "name": "prd-kit",
+  "version": "1.0.0",
+  "description": "Maximal PRD Builder — brief-ku × anti-ai-slop × design-template. Adaptive questioning, 45-section PRD, 38-rule slop filter, 30 design identities.",
+  "type": "module",
+  "license": "MIT",
+  "author": "muris11",
+  "homepage": "https://github.com/muris11/prd-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muris11/prd-kit.git"
+  },
+  "keywords": [
+    "prd",
+    "brief-ku",
+    "anti-ai-slop",
+    "design-template",
+    "agent-skills",
+    "spec",
+    "planning",
+    "prd-builder"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "skills/",
+    "rules/",
+    "plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "sync-skills": "node cli/scripts/sync-skills.mjs",
+    "test": "node cli/scripts/smoke-test.mjs"
+  }
+}
