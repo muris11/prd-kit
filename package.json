@@ -1,6 +1,6 @@
 {
   "name": "@muris11/prd-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Maximal PRD Builder — brief-ku × anti-ai-slop × design-template. Adaptive questioning, 45-section PRD, 38-rule slop filter, 30 design identities.",
   "type": "module",
   "license": "MIT",
