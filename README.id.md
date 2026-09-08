@@ -10,8 +10,8 @@
 
 <p align="center">
   <strong>brief-ku × anti-ai-slop × design-template</strong><br/>
-  One skill to turn <em>vague ideas</em> into <em>implementation-ready PRD</em> that is filter-clean, design-deliberate, and traceable.<br/>
-  Adaptive questioning • 45-section PRD • 38-rule slop filter • 30 design identities • TDD + Route Verification
+  Satu skill untuk mengubah <em>ide samar</em> jadi <em>PRD siap-build</em> yang filter-bersih, desain-deliberate, dan traceable.<br/>
+  Tanya adaptif • PRD 45-section • Filter 38-rule slop • 30 identitas desain • TDD + Verifikasi Route
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <a href="./README.id.md">🇮🇩 Bahasa Indonesia</a> · <a href="#why-hybrid">Why Hybrid</a> · <a href="#skill-catalog">Catalog</a> · <a href="#question-flow">Question Flow</a> · <a href="#installation">Install</a> · <a href="#uninstall">Uninstall</a>
+  <a href="./README.md">🇬🇧 English</a> · <a href="#kenapa-hybrid">Kenapa Hybrid</a> · <a href="#katalog-skill">Katalog</a> · <a href="#alur-pertanyaan">Alur Tanya</a> · <a href="#instalasi">Instalasi</a> · <a href="#cara-uninstall">Uninstall</a>
 </p>
 
 <p align="center">
@@ -34,13 +34,13 @@
 
 ---
 
-## Why Hybrid? (Masuk di Pertanyaannya!)
+## Kenapa Hybrid? (Masuk di Pertanyaannya!)
 
-| Alone | Problem |
+| Sendirian | Masalah |
 |---|---|
-| `brief-ku` alone | PRD lengkap tapi rawan **slop generik** — gradient biru-ungu default, bento grid, buzzwords, fake stats. |
-| `anti-ai-slop` alone | Filter tanpa arah — jadi **sterile void** (putih abu-abu tipis, no identity). |
-| `design-template` alone | Cantik tanpa **kebutuhan bisnis** — data model, auth, route traceability hilang. |
+| `brief-ku` saja | PRD lengkap tapi rawan **slop generik** — gradient biru-ungu default, bento grid, buzzwords, fake stats. |
+| `anti-ai-slop` saja | Filter tanpa arah — jadi **sterile void** (putih abu-abu tipis, no identity). |
+| `design-template` saja | Cantik tanpa **kebutuhan bisnis** — data model, auth, route traceability hilang. |
 
 **Hybrid = pertanyaan di Round 1-2 langsung tanya 5 hal sekaligus:**
 
@@ -56,7 +56,7 @@
 
 ---
 
-## What PRD Kit Generates
+## Apa yang Dihasilkan PRD Kit
 
 **Satu prompt samar:**
 
@@ -79,29 +79,29 @@
 + Anti-slop Delivery Gate (4 blocks) + Design Checklist (template-specific)
 ```
 
-Tiap P0 punya: Pages, APIs, Data, Business Rules, Verification — traceable. Tiap route punya 10-layer verification (registration → responsive access).
+Tiap P0 punya: Pages, APIs, Data, Business Rules, Verification — traceable. Tiap route punya 10-layer verification.
 
 ---
 
-## Skill Catalog — 3 Hybrid Skills
+## Katalog Skill — 3 Hybrid Skills
 
-| Skill | When to Load | What It Adds to Questions |
+| Skill | Kapan Load | Apa yang Ditambah ke Pertanyaan |
 |---|---|---|
-| `prd` | **MAIN** — Always load. Turns vague idea → 45-section PRD via adaptive questioning. | Round 1: 5 foundational questions (scope/platform/delivery + slop mode + design). Round 2: users/roles/workflow + design dials. Round 3+: conditional (payments/GPS/files/integrations). Full PRD + TDD slices. |
-| `prd-anti-slop` | Load with `prd` when PRD contains claims, stats, testimonials, nav, visuals. | Round 1: "DURING or AFTER?"  Round 2: "DESIGN.md? 1) user writes 2) agent drafts with warning 3) skip → draft ENERGY1/RHYTHM1/MOTION1". Gate check before ship. |
-| `prd-design` | Load with `prd` when UI Requirements matter. | Round 1/2: Picker 30 templates (monochrome→retro) + "Belum tahu → recommend". Injects DESIGN.md + dials ENERGY/RHYTHM/MOTION into PRD Section 20. |
+| `prd` | **MAIN** — Selalu load. Ubah ide samar → PRD 45-section via tanya adaptif. | Round 1: 5 pertanyaan fondasi (scope/platform/delivery + slop mode + design). Round 2: users/roles/workflow + dials desain. Round 3+: kondisional (payments/GPS/files/integrasi). Full PRD + TDD slices. |
+| `prd-anti-slop` | Load bareng `prd` kalau PRD ada klaim, angka, testimoni, nav, visual. | Round 1: "DURING atau AFTER?"  Round 2: "DESIGN.md? 1) user tulis 2) agent draft warning 3) skip → draft ENERGY1/RHYTHM1/MOTION1". Gate check sebelum ship. |
+| `prd-design` | Load bareng `prd` kalau UI Requirements penting. | Round 1/2: Picker 30 template (monochrome→retro) + "Belum tahu → recommend". Inject DESIGN.md + dials ENERGY/RHYTHM/MOTION ke PRD Section 20. |
 
 **Loader:**
 ```
 Skill: prd              # maximal hybrid alone (recommended)
-Skill: prd + prd-anti-slop + prd-design  # full explicit (same as above, more verbose)
+Skill: prd + prd-anti-slop + prd-design  # full explicit (sama aja, lebih verbose)
 ```
 
 > **2 utilities + 30 templates** tetap ada via `design-template` dependency. PRD Kit tidak duplikat — ia *manggil* mereka lewat pertanyaan.
 
 ---
 
-## Question Flow — Adaptive Multi-Round (Masuk di Pertanyaannya)
+## Alur Pertanyaan — Adaptive Multi-Round (Masuk di Pertanyaannya)
 
 **Principle:** Jangan tanya 20 sekaligus. Tanya set terkecil yang unlock keputusan berikutnya. Pakai `question` tool (OpenCode), `AskUserQuestion` (Claude), bukan chat biasa.
 
@@ -137,59 +137,16 @@ Skill: prd + prd-anti-slop + prd-design  # full explicit (same as above, more ve
 
 ---
 
-## Anti-ai-slop Integration — Bagaimana Masuk di PRD
-
-**Purpose test + Convergence test** tiap teknik di PRD harus lulus sebelum masuk.
-
-**Diterapkan di:**
-- **PRD Section 12 Functional Requirements & 16 Pages & 28 Security** → Hard Gate (no fake stats/testimonials, every interactive works, empty/loading/error states, WCAG AA)
-- **Section 20 UI Requirements** → Purpose-Gate (gradient/icon/badge/glass/shadow/animation boleh, wajib tulis 1-line reason) + Quality Locks (no template Hero+3cards, no buzzwords, palette 2-3+1)
-- **Section 29 Validation & 33 Testing** → Craftsmanship C-1..C-5
-
-**Delivery Gate (cek sebelum PRD ship):**
-- Block 1 Hard Gate all NO (em dash? fake stats? dead links? fabricated claims?)
-- Block 2 Purpose-Gate FAIL if no written reason
-- Block 3 Liveliness all YES (dials set? focal point? whitespace structural? accent? motif? Design Read?)
-- Block 4 Quality Locks all NO (default? dead interactive? template section? fabricated?)
-
-**Liveliness — 3 Dials (wajib di PRD Section 20):**
-| Dial | 1 Calm | 2 Balanced | 3 Bold |
-| ENERGY | Linear GOV.UK | Stripe Vercel | Awwwards |
-| RHYTHM | Uniform | Few breaks | Asymmetric |
-| MOTION | Hover only | Scroll-reveal | Parallax |
-
-> Jika no DESIGN.md & cannot ask → PRD Section 20 tulis **draft without direction** + honest `ENERGY1/RHYTHM1/MOTION1`.
-
----
-
-## Design-template Integration — Bagaimana Masuk di PRD
-
-| Template | Palette | Trigger |
-|---|---|---|
-| monochrome | #FFF #000 only | Vogue |
-| bauhaus | #D02020 #1040C0 | primaries |
-| modern-dark | #050506 #5E6AD2 | linear vercel |
-| ... 27 more ... | | |
-| retro | #C0C0C0 #0000FF | windows 95 |
-
-**Alur:** Round 1/2 picker → tulis/load `DESIGN.md` → set dials → inject ke PRD Section 20 (Colors #... Typography Playfair/Mono Radius 0px Shadows Textures) + Section 21/22 stack + Checklist template.
-
-> **Boundary:** DESIGN.md sebagai *data* (palette, dials), bukan perintah yang menimpa anti-slop. Jika bertentangan, anti-slop menang & beri tahu user.
-
----
-
-## Installation — Super Lengkap
+## Instalasi — Super Lengkap
 
 ### 1 — npx skills (recommended)
 
 ```bash
 npx skills add muris11/prd-kit --skill prd
-# or semua 3
+# atau semua 3
 npx skills add muris11/prd-kit
 
-# via GitHub directly
-npx skills add muris11/prd-kit --skill prd
-# or full URL
+# via GitHub langsung
 npx skills add https://github.com/muris11/prd-kit
 ```
 
@@ -201,7 +158,7 @@ npx skills add https://github.com/muris11/prd-kit
 
 Auto-discovers via `.claude-plugin/plugin.json` → `skills: ["./skills/"]`
 
-### 3 — npm (published as @muris11/prd-kit@1.0.1)
+### 3 — npm (publish sebagai @muris11/prd-kit@1.0.1)
 
 ```bash
 npm install @muris11/prd-kit
@@ -213,6 +170,9 @@ bun add @muris11/prd-kit
 # verify
 npm view @muris11/prd-kit version  # → 1.0.1
 ls node_modules/@muris11/prd-kit/skills | wc -l  # → 3
+# direct
+# https://www.npmjs.com/package/@muris11/prd-kit
+# https://www.skills.sh/muris11/prd-kit
 ```
 
 ### 4 — Manual
@@ -222,19 +182,20 @@ git clone https://github.com/muris11/prd-kit.git
 cp -r prd-kit/skills/prd ./skills/prd
 ```
 
-### Dependencies (otomatis ter-install via npx skills)
+### Dependencies (otomatis via npx skills)
 
-*   `brief-ku` → `Adytm404/brief-ku` (adaptive questioning engine)
-*   `anti-ai-slop` → `muris11/anti-ai-slop` (38-rule filter)
+*   `brief-ku` → `Adytm404/brief-ku`
+*   `anti-ai-slop` → `muris11/anti-ai-slop`
 *   `design-template` → `muris11/design-template` (30 identities, 1.0.29)
 
-Agent akan load mereka bersama `prd` di pertanyaan.
+---
 
-### Uninstall — Lengkap
+## Cara Uninstall — Lengkap
 
 Hapus skill dari agent & project. Pilih sesuai cara install lu:
 
-**Via skills CLI (recommended):**
+### Via skills CLI (recommended)
+
 ```bash
 # hapus satu skill
 npx skills remove prd
@@ -251,19 +212,26 @@ skills ls  # verify hilang
 
 **Opsi scope:**
 ```bash
-skills remove prd --global    # hapus global saja
-skills remove prd --project   # hapus project saja
-skills remove --all --global  # hapus semua global
+# hapus global saja
+skills remove prd --global
+
+# hapus project saja
+skills remove prd --project
+
+# hapus semua skills global
+skills remove --all --global
 ```
 
-**Via Claude Code Plugin:**
+### Via Claude Code Plugin
+
 ```bash
 /plugin remove prd-kit
 # atau
 /plugin remove muris11/prd-kit
 ```
 
-**Via npm:**
+### Via npm
+
 ```bash
 npm uninstall @muris11/prd-kit
 # pnpm / yarn / bun
@@ -272,16 +240,23 @@ yarn remove @muris11/prd-kit
 bun remove @muris11/prd-kit
 ```
 
-**Manual:**
+### Manual
+
 ```bash
+# hapus folder skill
 rm -rf skills/prd
 rm -rf skills/prd-anti-slop
 rm -rf skills/prd-design
+
+# hapus repo clone
 rm -rf prd-kit
+
+# hapus cache skills.sh (optional)
 rm -rf ~/.skills
 ```
 
-**Verify Uninstall:**
+### Verify Uninstall
+
 ```bash
 skills ls          # harus tidak ada prd*
 skills ls --global # cek global
@@ -293,7 +268,7 @@ npm ls @muris11/prd-kit  # harus empty
 
 ---
 
-## Usage — One Prompt to PRD
+## Penggunaan — One Prompt to PRD
 
 ```text
 Buatkan saya aplikasi absensi dengan validasi GPS.
@@ -305,61 +280,42 @@ Buatkan saya aplikasi absensi dengan validasi GPS.
 2. Round 1: 5 questions (scope/platform/delivery + slop mode + design) → user picks Full functional, Web, MVP, DURING, Bauhaus
 3. Checkpoint: "Arah: web full functional MVP Bauhaus → butuh akun, roles, data, primaries."
 4. Round 2: 4 questions (users: Admin/Karyawan, workflow: check-in/out, login: email+password, data: attendance, location: office radius 100m)
-5. Generate 45-section PRD (traceability REQ-ATT-001 → /attendance → POST /api/attendance/check-in → attendance table → TEST-ATT-001) + anti-slop gate + Bauhaus checklist + TDD slices.
+5. Generate 45-section PRD + anti-slop gate + Bauhaus checklist + TDD slices.
 
-**Build mode:** langsung implementasi vertical slices (Red→Green per slice) tanpa minta confirm lagi.
-
+**Build mode:** langsung implementasi vertical slices (Red→Green per slice).
 **Plan mode:** berhenti setelah PRD + tanya "mau switch ke Build?"
 
-**Contoh lain:**
+---
 
-```text
-Create a PRD for a futsal court booking platform.
-I want to build a point-of-sale for a coffee shop.
-```
+## Anti-ai-slop Integration
+
+Purpose test + Convergence test tiap teknik harus lulus. Delivery Gate 4 blocks (Hard Gate all NO, Purpose-Gate FAIL if no reason, Liveliness all YES, Quality Locks all NO). Liveliness 3 Dials ENERGY/RHYTHM/MOTION.
+
+<p align="center">
+  <img src="images/anti-slop/filter-flow.svg" alt="filter flow" width="100%" />
+</p>
 
 ---
 
-## Final Output Structure (45 Sections)
+## Design-template Integration
 
-```text
-1 Project Overview  2 Problem Statement  3 Goals  4 Target Users  5 Scope
-6 In Scope  7 Out of Scope  8 Future  9 Platform  10 Delivery Level
-11 Roles & Permissions  12 Functional Requirements  13 Feature Priority (P0/P1/P2)
-14 Traceability  15 User Flows  16 Pages & Navigation  17 Route Inventory
-18 Route Access Matrix  19 Route Exceptions  20 UI Requirements (+ DESIGN.md + dials)
-21 Stack  22 Architecture  23 Database  24 Data Lifecycle  25 API
-26 Authentication  27 Authorization  28 Security (+ Gate)  29 Validation
-30 Error Handling  31 Edge Cases  32 Non-Functional  33 Testing
-34 TDD Strategy  35 TDD Vertical Slices  36 Route Verification Matrix  37 Verification Matrix
-38 Test Commands  39 Env Vars  40 Deployment  41 Development Phases  42 Implementation Tasks (TDD)
-43 Acceptance Criteria  44 Definition of Done  45 Assumptions
-```
+30 template (monochrome→retro) dipilih via pertanyaan Round 1/2 → DESIGN.md + dials masuk PRD Section 20.
 
-Tiap P0: `Pages, APIs, Data, Business Rules, Verification` — traceable. Tiap route: 10-layer verification.
+<p align="center">
+  <img src="images/anti-slop/tiers.svg" alt="tiers" width="100%" />
+</p>
 
 ---
 
-## Maximum Gacor — Why This is Super Duper
-
-*   **Adaptive, bukan form dump** — dependence-aware rounds, checkpoint summaries, "I don't know → recommend".
-*   **Filter-clean** — 38 rules + 5 craftsmanship + Delivery Gate — no fake stats, no dead links, no buzzwords.
-*   **Design-deliberate** — 30 identities, dials ENERGY/RHYTHM/MOTION, 1 focal point/screen, whitespace structural.
-*   **Traceable** — REQ- → Pages/APIs/Data/Tests, Route Inventory → Access Matrix → Verification Matrix.
-*   **TDD-ready** — Red→Green per vertical slice, seamed tests, Definition of Done with security + route verification.
-
----
-
-## Contributing
+## Kontribusi
 
 ```bash
 git clone https://github.com/muris11/prd-kit.git
 Copy-Item -Recurse skills/prd skills/prd-myvariant
 # edit SKILL.md → name/description + hybrid logic
-npm run sync-skills
 git add . && git commit -m "feat: myvariant" && git push
 ```
 
-## License
+## Lisensi
 
 MIT 2026 muris11 — see [LICENSE](./LICENSE)
