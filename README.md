@@ -12,8 +12,8 @@
 
 <p align="center">
   <a href="https://github.com/muris11/prd-kit"><img src="https://img.shields.io/github/stars/muris11/prd-kit?style=flat&label=Stars" alt="GitHub Stars" /></a>
-  <a href="https://www.npmjs.com/package/prd-kit"><img src="https://img.shields.io/npm/v/prd-kit?label=npm&color=CB0000" alt="npm" /></a>
-  <a href="https://www.skills.sh/search?q=prd-kit"><img src="https://img.shields.io/badge/skills.sh-prd--kit-7C3AED" alt="skills.sh" /></a>
+  <a href="https://www.npmjs.com/package/@muris11/prd-kit"><img src="https://img.shields.io/npm/v/@muris11%2Fprd-kit?label=npm&color=CB0000" alt="npm" /></a>
+  <a href="https://www.skills.sh/muris11/prd-kit"><img src="https://img.shields.io/badge/skills.sh-prd--kit-7C3AED" alt="skills.sh" /></a>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT" />
   <img src="https://img.shields.io/badge/skills-3%20hybrid-0A0A0A" alt="3 skills" />
   <img src="https://img.shields.io/badge/PRD-45%20sections-FF3AF2" alt="45 sections" />
@@ -178,7 +178,9 @@ npx skills add muris11/prd-kit --skill prd
 # or semua 3
 npx skills add muris11/prd-kit
 
-# via GitHub directly (belum di npm)
+# via GitHub directly
+npx skills add muris11/prd-kit --skill prd
+# or full URL
 npx skills add https://github.com/muris11/prd-kit
 ```
 
@@ -190,13 +192,18 @@ npx skills add https://github.com/muris11/prd-kit
 
 Auto-discovers via `.claude-plugin/plugin.json` → `skills: ["./skills/"]`
 
-### 3 — npm (when published)
+### 3 — npm (published as @muris11/prd-kit@1.0.1)
 
 ```bash
-npm install prd-kit
-# or
-npm install muris11/prd-kit
-npx prd-kit
+npm install @muris11/prd-kit
+# pnpm / yarn / bun
+pnpm add @muris11/prd-kit
+yarn add @muris11/prd-kit
+bun add @muris11/prd-kit
+
+# verify
+npm view @muris11/prd-kit version  # → 1.0.1
+ls node_modules/@muris11/prd-kit/skills | wc -l  # → 3
 ```
 
 ### 4 — Manual
