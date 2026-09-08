@@ -1,7 +1,7 @@
 {
   "name": "prd-kit",
   "displayName": "PRD Kit — brief-ku × anti-ai-slop × design-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Maximal PRD Builder: adaptive questioning from brief-ku + anti-ai-slop filter (38 rules + liveliness) + 30 design-template identities. One skill to turn vague ideas into implementation-ready PRD that is filter-clean, design-deliberate, and build-ready.",
   "author": {
     "name": "muris11"
