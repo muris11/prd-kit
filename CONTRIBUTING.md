@@ -65,3 +65,5 @@ npm run test          # validate manifests + expected skills
 ## License
 
 By contributing, you agree that your contributions are licensed under the [MIT License](LICENSE).
+
+Participation in this project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).

@@ -18,6 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/muris11/prd-kit"><img src="https://img.shields.io/github/stars/muris11/prd-kit?style=flat&label=Stars" alt="GitHub Stars" /></a>
+  <a href="https://github.com/muris11/prd-kit/actions/workflows/ci.yml"><img src="https://github.com/muris11/prd-kit/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <a href="https://www.npmjs.com/package/@muris11/prd-kit"><img src="https://img.shields.io/npm/v/@muris11%2Fprd-kit?label=npm&color=CB0000" alt="npm" /></a>
   <a href="https://www.skills.sh/muris11/prd-kit"><img src="https://img.shields.io/badge/skills.sh-prd--kit-7C3AED" alt="skills.sh" /></a>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT" />

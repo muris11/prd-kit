@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/muris11/prd-kit.git"
   },
+  "bugs": {
+    "url": "https://github.com/muris11/prd-kit/issues"
+  },
   "keywords": [
     "prd",
     "brief-ku",
@@ -33,6 +36,7 @@
     "CHANGELOG.md",
     "SECURITY.md",
     "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
     "LICENSE",
     "plugin.json"
   ],
