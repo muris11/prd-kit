@@ -164,7 +164,7 @@ npx skills add https://github.com/muris11/prd-kit
 
 Auto-discovers via `.claude-plugin/plugin.json` → `skills: ["./skills/"]`
 
-### 3 — npm (publish sebagai @muris11/prd-kit@1.0.1)
+### 3 — npm (publish sebagai @muris11/prd-kit@1.0.3)
 
 ```bash
 npm install @muris11/prd-kit
@@ -174,7 +174,7 @@ yarn add @muris11/prd-kit
 bun add @muris11/prd-kit
 
 # verify
-npm view @muris11/prd-kit version  # → 1.0.1
+npm view @muris11/prd-kit version  # → 1.0.3
 ls node_modules/@muris11/prd-kit/skills | wc -l  # → 3
 # direct
 # https://www.npmjs.com/package/@muris11/prd-kit

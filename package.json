@@ -29,6 +29,9 @@
     "images/",
     "README.md",
     "README.id.md",
+    "ROADMAP.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
     "LICENSE",
     "plugin.json"
   ],
