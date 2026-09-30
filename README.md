@@ -366,6 +366,10 @@ npm run sync-skills
 git add . && git commit -m "feat: myvariant" && git push
 ```
 
+## Changelog
+
+Release history lives in [CHANGELOG.md](./CHANGELOG.md) — every version from 1.0.0 to now, in Keep a Changelog format.
+
 ## License
 
 MIT 2026 muris11 — see [LICENSE](./LICENSE)

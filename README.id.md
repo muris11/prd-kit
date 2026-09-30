@@ -322,6 +322,10 @@ Copy-Item -Recurse skills/prd skills/prd-myvariant
 git add . && git commit -m "feat: myvariant" && git push
 ```
 
+## Changelog
+
+Riwayat rilis ada di [CHANGELOG.md](./CHANGELOG.md) — semua versi dari 1.0.0 sampai sekarang, format Keep a Changelog.
+
 ## Lisensi
 
 MIT 2026 muris11 — see [LICENSE](./LICENSE)
